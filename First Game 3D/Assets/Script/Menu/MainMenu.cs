@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void StartGamed()
+    public void StartTuto()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void GoMainMenu()
+    {
+        string mainMenuSceneName = "Menu"; // Remplacez "MainMenu" par le nom de votre scène de menu principal
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 
     public void QuitGame()
