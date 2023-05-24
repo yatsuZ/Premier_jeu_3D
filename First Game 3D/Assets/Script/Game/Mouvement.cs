@@ -4,26 +4,41 @@ using UnityEngine;
 
 public class Mouvement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    // Start est appeler avant la premier frame d'update
+    public float jumpForce = 5f;
+    private bool isGrounded = false;
+    private Rigidbody rb;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    // Update est appeler une fois par frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+        }
     }
 
-    // Similaire à update mais n'est pas apeller frame par frame mais à temp regulier
     void FixedUpdate()
     {
-        // Input.GetAxis done 1 0 ou -1 en fonction de la ou es qu'on appuye ou non.
-        transform.Translate(Vector3.forward * 5f * Time.fixedDeltaTime * Input.GetAxis("Vertical"));
-        transform.Translate(Vector3.right * 5f * Time.fixedDeltaTime * Input.GetAxis("Horizontal"));
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveHorizontal, 0f, moveVertical);
+        transform.Translate(movement * 5f * Time.fixedDeltaTime);
+
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 1f))
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
     }
 
 }
