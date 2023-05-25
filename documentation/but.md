@@ -18,11 +18,11 @@ et si tout se passe bien rejouter des enemie et un timer.
 | Crée un menu start | ✅ |
 | Generer un .exe et l'upload sur [itch.io](https://itch.io/game/new) | ✅ |
 
-[C'est quoi itch.io](./itch.io.md)
-[Suvie de chaque étape](./suivie_du_projet.md)
+- [C'est quoi itch.io](./itch.io.md)
+- [Suvie de chaque étape](./suivie_du_projet.md)
 
-## Description
+## Description du jeux
 
-Ce projet fut exeperimental et le but du jeux et de juste faire marquer un but avec cube rien de bien folichons.
+Ce projet fut exeperimental et le but du jeux et de juste faire marquer un but un avec cube rien de bien folichons.
 
 [Tester mon jeux.](./Tester_Jeux)
