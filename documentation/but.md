@@ -25,4 +25,4 @@ et si tout se passe bien rejouter des enemie et un timer.
 
 Ce projet fut exeperimental et le but du jeux et de juste faire marquer un but un avec cube rien de bien folichons.
 
-[Tester mon jeux.](./Tester_Jeux)
+[Tester mon jeux.](./Tester_Jeux.md)
