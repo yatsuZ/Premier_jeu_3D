@@ -11,4 +11,4 @@ Bien a present je vais me documenter pour me familiariser avec linterface et sav
 J'ai apis comment ajouter des script a des element crée un menu cela ma pris du temp.
 Si je shouaite apronfondir mes connaissance je peux aprend a crée des animations.
 
-[Tester mon jeux.](./)
+[Tester mon jeux.](./Tester_Jeux)
