@@ -8,6 +8,7 @@ Premier projet avec Unity, objectif : créer un jeu 3D.👾
 - [Le but et le cahier des charges de ce projet / repos.](documentation/but.md)
 - [Qu'est-ce qu'itch.io ?](documentation/itch.io.md)
 - [Suivie du projet](documentation/suivie_du_projet.md)
+- [Teste mon jeux](documentation/Tester_Jeux.md)
 
 ## Remerciment
 
