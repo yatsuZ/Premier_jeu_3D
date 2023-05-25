@@ -12,15 +12,17 @@ et si tout se passe bien rejouter des enemie et un timer.
 
 | Objectif | fais ? |
 |----------|--------|
-| Crée la map | ❌ |
-| Crée un personnage | ❌ |
-| Il peut se deplacer | ❌ |
-| Cree des objet collectible | ❌ |
-| Crée un menu start | ❌ |
-| Crée un timer | ❌ |
-| Faire un tableau de score dans le menu | ❌ |
-| Rajouter des mobs | ❌ |
-| Generer un .exe et l'upload sur [itch.io](https://itch.io/game/new) | ❌ |
+| Crée la map | ✅ |
+| Crée un personnage | ✅ |
+| Il peut se deplacer | ✅ |
+| Crée un menu start | ✅ |
+| Generer un .exe et l'upload sur [itch.io](https://itch.io/game/new) | ✅ |
 
-[C'est quoi itch.io](documentation/itch.io.md)
-[Suvie de chaque étape](documentation/suivie_du_projet.md)
+[C'est quoi itch.io](./itch.io.md)
+[Suvie de chaque étape](./suivie_du_projet.md)
+
+## Description
+
+Ce projet fut exeperimental et le but du jeux et de juste faire marquer un but avec cube rien de bien folichons.
+
+[Tester mon jeux.](./Tester_Jeux)
