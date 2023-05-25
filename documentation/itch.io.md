@@ -18,4 +18,4 @@ Pour cela, crée un compte puis suis ce [lien](https://itch.io/game/new) et remp
 
 Après cela, les gens pourront jouer aux jeux que j'ai créés.
 
-[Voir le cahier des charges](documentation/but.md) ou [Voir le suivi du projet](documentation/suivie_du_projet.md).
+[Voir le cahier des charges](./but.md) ou [Voir le suivi du projet](./suivie_du_projet.md).
