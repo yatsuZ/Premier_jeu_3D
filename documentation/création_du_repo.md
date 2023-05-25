@@ -13,4 +13,4 @@ J'ai suivi cette [vidéo](https://www.youtube.com/watch?v=qpXxcvS-g3g) pour appr
 
 À présent, mon dépôt est créé. Je peux commencer mon projet.
 
-[But du repo](documentation/but.md)
+[But du repo](./but.md)
